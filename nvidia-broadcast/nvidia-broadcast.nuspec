@@ -18,6 +18,9 @@
       
       When not broadcasting, these features can also enhance your video conference calls and voice chats, making NVIDIA Broadcast a perfect AI companion for anyone.
     </description>
+    <dependencies>
+      <dependency id="nvidia-display-driver" version="456.38" />
+    </dependencies>
     <packageSourceUrl>https://github.com/madmoh/chocolatey-packages/tree/master/nvidia-broadcast</packageSourceUrl>
     <bugTrackerUrl>https://www.nvidia.com/en-us/geforce/forums/broadcasting/18/</bugTrackerUrl>
   </metadata>
