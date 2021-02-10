@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>nvidia-broadcast</id>
+    <version>1.1.0.21</version>
+    <title>NVIDIA Broadcast</title>
+    <authors>NVIDIA Corporation</authors>
+    <projectUrl>https://www.nvidia.com/en-us/geforce/broadcasting/broadcast-app</projectUrl>
+    <iconUrl>https://cdn.staticaly.com/gh/madmoh/chocolatey-packages/master/icons/nvidia-broadcast.png</iconUrl>
+    <copyright>2021 NVIDIA Corporation. All rights reserved.</copyright>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>NVIDIA GPU RTX Broadcast RTX-Voice</tags>
+    <summary>
+      The NVIDIA Broadcast app transforms your gaming space into a home studio. Take your livestreams, voice chats, and video conference calls to the next level with AI-enhanced voice and video.
+    </summary>
+    <description>
+      NVIDIA Broadcast transforms any space into a home broadcast studio, upgrading standard webcams and microphones into premium smart devices through the power of AI. Improve the video and audio quality of your livestream with AI capabilities, such as virtual background, webcam auto frame, and microphone noise removal. With dedicated AI processors called Tensor Cores on GeForce RTX GPUs, the AI networks are able to run high-quality effects in real-time.
+      
+      When not broadcasting, these features can also enhance your video conference calls and voice chats, making NVIDIA Broadcast a perfect AI companion for anyone.
+    </description>
+    <packageSourceUrl>https://github.com/madmoh/chocolatey-packages/tree/master/nvidia-broadcast</packageSourceUrl>
+    <bugTrackerUrl>https://www.nvidia.com/en-us/geforce/forums/broadcasting/18/</bugTrackerUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
