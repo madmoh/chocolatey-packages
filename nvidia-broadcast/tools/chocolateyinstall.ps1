@@ -18,17 +18,17 @@ $packageArgs = @{
 
 $WindowsVersionMajor = [Environment]::OSVersion.Version.Major
 if ($WindowsVersionMajor -ne "10") {
-  throw "NVIDIA Broadcast requires Windows 10."
+  Write-Warning "NVIDIA Broadcast requires Windows 10."
 }
 
 $WindowsArchitecture = [Environment]::Is64BitOperatingSystem
 if ($WindowsArchitecture -ne $true) {
-  throw "NVIDIA Broadcast requires a 64-bit Windows architecture."
+  Write-Warning "NVIDIA Broadcast requires a 64-bit Windows architecture."
 }
 
 $GraphicsName = (Get-WmiObject win32_VideoController).Name
 if ($GraphicsName -notmatch "RTX") {
-  throw "NVIDIA Broadcast requires a RTX 2000-series or RTX 3000-series graphics card."
+  Write-Warning "NVIDIA Broadcast requires a RTX 2000-series or RTX 3000-series graphics card."
 }
 
 Install-ChocolateyPackage @packageArgs
