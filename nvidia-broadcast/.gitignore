@@ -1,2 +1,2 @@
-# Chocolatey Uninstaller
 tools/chocolateyuninstall.ps1
+tools/*.exe
