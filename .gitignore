@@ -1,5 +1,11 @@
-# Visual Studio Code
+# Visual Studio Code files
 .vscode/*
 
 # Example Chocolatey package
 test/*
+
+# Incomplete/Testing files
+incomplete/*
+
+# Chocolatey package files
+*.nupkg
